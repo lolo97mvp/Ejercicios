@@ -1,0 +1,5 @@
+precio1=float(input("Introduzca el importe del primer producto:"))
+precio2=float(input("Introduzca el importe del segundo producto:"))
+iva=int(input("Introduce el IVA en %:"))
+importeTotal=precio1*(1+iva/100)+precio2*(1+iva/100)
+print("El importe total es:",importeTotal,"€")
